@@ -32,3 +32,11 @@ puts "fruits_stock size: #{fruits_stock.size}"
 pokemons = {} of String => String
 pokemons["electric"] = "pikacu"
 puts "Pokemons: #{pokemons}"
+
+# symbol as hash key
+symbolize = {
+  abc: 1,
+  def: 2,
+  xyz: 999
+}
+puts symbolize
