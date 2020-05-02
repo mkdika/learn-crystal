@@ -1,0 +1,17 @@
+name: example
+version: 0.1.0
+
+authors:
+  - Maikel Chandika <mkdika@gmail.com>
+
+targets:
+  example:
+    main: src/example.cr
+
+crystal: 0.34.0
+
+dependencies:
+  mysql:
+    github: crystal-lang/crystal-mysql
+
+license: MIT
